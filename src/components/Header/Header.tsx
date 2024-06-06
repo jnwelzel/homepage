@@ -13,7 +13,7 @@ export const Header: FC = () => {
 
   return (
     <>
-      <nav className="shadow bg-neutral-100 p-3 z-20 md:w-[584px] md:mx-auto md:mt-4 md:rounded-full md:px-6 md:py-3">
+      <nav className="shadow bg-neutral-100/[0.5] backdrop-blur p-3 z-20 md:w-[584px] md:mx-auto md:inset-x-0 md:mt-4 md:rounded-full md:px-6 md:py-3 fixed w-full">
         <ul className="flex items-center flex-1">
           <li className="bg-yellow-300 p-1 rounded">
             <Link to="/" className="text-lg font-semibold">
@@ -58,11 +58,11 @@ export const Header: FC = () => {
       {isSidebarVisible ? (
         <div
           onClick={toggleSidebar}
-          className="z-[9] fixed top-0 right-0 bottom-0 left-0"
+          className="z-[9] fixed top-0 right-0 bottom-0 left-0 bg-black/[.5]"
         />
       ) : null}
       <aside
-        className={`bg-neutral-100 shadow fixed right-0 top-[61px] border-l bottom-0 z-10 slide-in ${isSidebarVisible ? "slide-out" : ""} md:hidden`}
+        className={`bg-neutral-100 shadow fixed right-0 top-[60px] border-l bottom-0 z-10 slide-in ${isSidebarVisible ? "slide-out" : ""} md:hidden`}
       >
         <ul
           className="grid"
