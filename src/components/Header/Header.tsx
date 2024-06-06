@@ -1,15 +1,15 @@
-import { XMarkIcon, Bars2Icon } from "@heroicons/react/24/outline";
-import { FC, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import './Header.css'
 
-import "./Header.css";
+import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { FC, useState } from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export const Header: FC = () => {
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false)
 
   const toggleSidebar = () => {
-    setIsSidebarVisible(!isSidebarVisible);
-  };
+    setIsSidebarVisible(!isSidebarVisible)
+  }
 
   return (
     <>
@@ -30,71 +30,48 @@ export const Header: FC = () => {
             </button>
           </li>
           <li className="max-md:hidden md:visible ml-auto">
-            <NavLink
-              to="/blog"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/blog" className={({ isActive }) => (isActive ? 'underline' : '')}>
               Blog
             </NavLink>
           </li>
           <li className="max-md:hidden md:visible md:ml-5">
-            <NavLink
-              to="/portfolio"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'underline' : '')}>
               Portfolio
             </NavLink>
           </li>
           <li className="max-md:hidden md:visible md:ml-5">
-            <NavLink
-              to="/about"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'underline' : '')}>
               About
             </NavLink>
           </li>
         </ul>
       </nav>
       {isSidebarVisible ? (
-        <div
-          onClick={toggleSidebar}
-          className="z-[9] fixed top-0 right-0 bottom-0 left-0"
-        />
+        <div onClick={toggleSidebar} className="z-[9] fixed top-0 right-0 bottom-0 left-0" />
       ) : null}
       <aside
-        className={`bg-neutral-100/[0.5] backdrop-blur shadow fixed right-0 top-[60px] bottom-0 z-10 slide-in ${isSidebarVisible ? "slide-out" : ""} md:hidden`}
-      >
+        className={`bg-neutral-100/[0.5] backdrop-blur shadow fixed right-0 top-[60px] bottom-0 z-10 slide-in ${isSidebarVisible ? 'slide-out' : ''} md:hidden`}>
         <ul
           className="grid"
           onFocus={() => setIsSidebarVisible(true)}
-          onBlur={() => setIsSidebarVisible(false)}
-        >
+          onBlur={() => setIsSidebarVisible(false)}>
           <li className="px-8 py-2">
-            <NavLink
-              to="/blog"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/blog" className={({ isActive }) => (isActive ? 'underline' : '')}>
               Blog
             </NavLink>
           </li>
           <li className="px-8 py-2">
-            <NavLink
-              to="/portfolio"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'underline' : '')}>
               Portfolio
             </NavLink>
           </li>
           <li className="px-8 py-2">
-            <NavLink
-              to="/about"
-              className={({ isActive }) => (isActive ? "underline" : "")}
-            >
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'underline' : '')}>
               About
             </NavLink>
           </li>
         </ul>
       </aside>
     </>
-  );
-};
+  )
+}

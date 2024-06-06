@@ -1,11 +1,12 @@
-import { FC } from "react";
-import { Link } from "react-router-dom";
-import reactLogo from "../../assets/react.svg";
-import htmlLogo from "../../assets/html.svg";
-import javascriptLogo from "../../assets/javascript.svg";
-import cssLogo from "../../assets/css.svg";
-import nodejsLogo from "../../assets/nodejs.svg";
-import typescriptLogo from "../../assets/typescript.svg";
+import { FC } from 'react'
+import { Link } from 'react-router-dom'
+
+import cssLogo from '../../assets/css.svg'
+import htmlLogo from '../../assets/html.svg'
+import javascriptLogo from '../../assets/javascript.svg'
+import nodejsLogo from '../../assets/nodejs.svg'
+import reactLogo from '../../assets/react.svg'
+import typescriptLogo from '../../assets/typescript.svg'
 
 export const HomePage: FC = () => {
   return (
@@ -19,18 +20,14 @@ export const HomePage: FC = () => {
         <p className="text-left">(that's "hello" in Portuguese)</p>
       </span>
       <span className="relative my-10">
-        <span
-          className="block absolute inset-0 bg-black w-1"
-          aria-hidden="true"
-        ></span>
+        <span className="block absolute inset-0 bg-black w-1" aria-hidden="true"></span>
         <p className="ml-2">
-          I'm Jonathan, a Brazilian full stack Javascript developer living in
-          Germany since 2019. I have a great eye for detail and a passion for
-          creating dynamic, responsive, and user-friendly web apps. I thrive in
-          collaborative and diverse environments, consistently delivering
-          high-quality and well-tested code along with innovative solutions to
-          meet project goals and enhance user experiences at the same time. To
-          learn more about my professional background and experience click{" "}
+          I'm Jonathan, a Brazilian full stack Javascript developer living in Germany since 2019. I
+          have a great eye for detail and a passion for creating dynamic, responsive, and
+          user-friendly web apps. I thrive in collaborative and diverse environments, consistently
+          delivering high-quality and well-tested code along with innovative solutions to meet
+          project goals and enhance user experiences at the same time. To learn more about my
+          professional background and experience click{' '}
           <Link to="/about" className="underline">
             here
           </Link>
@@ -49,5 +46,5 @@ export const HomePage: FC = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}

@@ -1,5 +1,5 @@
-import { FC } from "react";
+import { FC } from 'react'
 
 export const PortfolioPage: FC = () => {
-  return <div>Portfolio Page</div>;
-};
+  return <div>Portfolio Page</div>
+}

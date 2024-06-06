@@ -1,7 +1,7 @@
-export { PortfolioPage } from "./portfolio/PortfolioPage";
-export { AboutPage } from "./about/AboutPage";
-export { HomePage } from "./home/HomePage";
-export { BlogPage } from "./blog/BlogPage";
-export { ErrorPage } from "./ErrorPage";
-export { NotFoundPage } from "./NotFoundPage";
-export { LayoutPage } from "./LayoutPage";
+export { AboutPage } from './about/AboutPage'
+export { BlogPage } from './blog/BlogPage'
+export { ErrorPage } from './ErrorPage'
+export { HomePage } from './home/HomePage'
+export { LayoutPage } from './LayoutPage'
+export { NotFoundPage } from './NotFoundPage'
+export { PortfolioPage } from './portfolio/PortfolioPage'

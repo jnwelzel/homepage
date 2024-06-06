@@ -1,9 +1,9 @@
 .slide-in {
   transform: translateX(100%);
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .slide-out {
   transform: translateX(0);
-  transition: .2s ease-in;
+  transition: 0.2s ease-in;
 }

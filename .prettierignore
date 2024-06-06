@@ -1,0 +1,11 @@
+**/*.d.ts
+dist/
+node_modules
+vendor/
+public
+build
+**/assets
+**/*.yml
+**/*.yaml
+**/*.svg
+tsconfig.*

@@ -1,6 +1,6 @@
-import { EnvelopeIcon } from "@heroicons/react/24/outline";
-import { FC } from "react";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import { EnvelopeIcon } from '@heroicons/react/24/outline'
+import { FC } from 'react'
+import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 
 export const Footer: FC = () => {
   return (
@@ -14,8 +14,7 @@ export const Footer: FC = () => {
             <a
               href="https://github.com/jnwelzel/"
               target="_blank"
-              className="flex items-center gap-2"
-            >
+              className="flex items-center gap-2">
               <IoLogoGithub className="size-6" /> Github
             </a>
           </li>
@@ -23,16 +22,12 @@ export const Footer: FC = () => {
             <a
               href="https://www.linkedin.com/in/jonwelzel/"
               target="_blank"
-              className="flex items-center gap-2"
-            >
+              className="flex items-center gap-2">
               <IoLogoLinkedin className="size-6" /> LinkedIn
             </a>
           </li>
           <li className="justify-self-end md:col-span-3 md:justify-self-start">
-            <a
-              href="mailto:contact@jonwelzel.online"
-              className="flex items-center gap-2"
-            >
+            <a href="mailto:contact@jonwelzel.online" className="flex items-center gap-2">
               <EnvelopeIcon className="size-6" />
               Contact
             </a>
@@ -40,5 +35,5 @@ export const Footer: FC = () => {
         </ul>
       </footer>
     </>
-  );
-};
+  )
+}

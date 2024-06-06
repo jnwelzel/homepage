@@ -1,6 +1,7 @@
-import { FC } from "react";
-import { Outlet } from "react-router-dom";
-import { Footer, Header } from "../components";
+import { FC } from 'react'
+import { Outlet } from 'react-router-dom'
+
+import { Footer, Header } from '../components'
 
 export const LayoutPage: FC = () => {
   return (
@@ -11,5 +12,5 @@ export const LayoutPage: FC = () => {
       </div>
       <Footer />
     </div>
-  );
-};
+  )
+}

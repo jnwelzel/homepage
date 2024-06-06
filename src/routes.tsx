@@ -1,4 +1,5 @@
-import { RouteObject } from "react-router-dom";
+import { RouteObject } from 'react-router-dom'
+
 import {
   AboutPage,
   BlogPage,
@@ -7,11 +8,11 @@ import {
   LayoutPage,
   NotFoundPage,
   PortfolioPage,
-} from "./pages";
+} from './pages'
 
 export const routes: RouteObject[] = [
   {
-    path: "/",
+    path: '/',
     element: <LayoutPage />,
     children: [
       {
@@ -19,19 +20,19 @@ export const routes: RouteObject[] = [
         element: <HomePage />,
       },
       {
-        path: "/portfolio",
+        path: '/portfolio',
         element: <PortfolioPage />,
       },
       {
-        path: "/blog",
+        path: '/blog',
         element: <BlogPage />,
       },
       {
-        path: "/about",
+        path: '/about',
         element: <AboutPage />,
       },
-      { path: "*", element: <NotFoundPage /> },
+      { path: '*', element: <NotFoundPage /> },
     ],
     errorElement: <ErrorPage />,
   },
-];
+]
