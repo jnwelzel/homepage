@@ -58,11 +58,11 @@ export const Header: FC = () => {
       {isSidebarVisible ? (
         <div
           onClick={toggleSidebar}
-          className="z-[9] fixed top-0 right-0 bottom-0 left-0 bg-black/[.5]"
+          className="z-[9] fixed top-0 right-0 bottom-0 left-0"
         />
       ) : null}
       <aside
-        className={`bg-neutral-100 shadow fixed right-0 top-[60px] border-l bottom-0 z-10 slide-in ${isSidebarVisible ? "slide-out" : ""} md:hidden`}
+        className={`bg-neutral-100/[0.5] backdrop-blur shadow fixed right-0 top-[60px] bottom-0 z-10 slide-in ${isSidebarVisible ? "slide-out" : ""} md:hidden`}
       >
         <ul
           className="grid"
