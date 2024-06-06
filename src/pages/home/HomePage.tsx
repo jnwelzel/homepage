@@ -2,6 +2,7 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 
 export const HomePage: FC = () => {
+  // TODO Icons: javascript, react, tailwind, css, html 5, node
   return (
     <div className="flex flex-col h-full justify-center items-center">
       <span>
@@ -14,13 +15,17 @@ export const HomePage: FC = () => {
       </span>
       <span className="relative my-10">
         <span
-          className="block absolute -inset-1 bg-slate-600 w-1"
+          className="block absolute -inset-1 bg-black w-1"
           aria-hidden="true"
         ></span>
         <p className="ml-2">
-          I'm Jonathan, a Brazilian full stack Javascript developer currently
-          living in Germany with my beautiful wife and two wonderful kids. To
-          learn more about me click{" "}
+          I'm Jonathan, a Brazilian full stack Javascript developer living in
+          Germany since 2019. I have a great eye for detail and a passion for
+          creating dynamic, responsive, and user-friendly web apps. I thrive in
+          collaborative and diverse environments, consistently delivering
+          high-quality and well-tested code along with innovative solutions to
+          meet project goals and enhance user experiences at the same time. To
+          learn more about my professional background click{" "}
           <Link to="/about" className="underline">
             here
           </Link>
