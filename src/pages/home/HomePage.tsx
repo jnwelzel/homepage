@@ -15,7 +15,7 @@ export const HomePage: FC = () => {
       </span>
       <span className="relative my-10">
         <span
-          className="block absolute -inset-1 bg-black w-1"
+          className="block absolute inset-0 bg-black w-1"
           aria-hidden="true"
         ></span>
         <p className="ml-2">
