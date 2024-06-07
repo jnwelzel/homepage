@@ -4,6 +4,7 @@ import '../src/index.css'
 
 const preview: Preview = {
   decorators: [withRouter],
+
   parameters: {
     controls: {
       matchers: {
@@ -12,6 +13,8 @@ const preview: Preview = {
       },
     },
   },
+
+  tags: ['autodocs']
 }
 
 export default preview
