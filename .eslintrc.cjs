@@ -10,11 +10,12 @@ module.exports = {
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
-  plugins: ['react-refresh', 'simple-import-sort'],
+  plugins: ['react-refresh', 'simple-import-sort', '@stylistic'],
   rules: {
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
+    '@stylistic/indent': ['error', 2],
   },
   parserOptions: {
     ecmaVersion: 'latest',
