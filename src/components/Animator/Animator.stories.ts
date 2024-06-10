@@ -11,9 +11,6 @@ import { Animator } from './Animator'
 const meta = {
   title: 'Components/Animator',
   component: Animator,
-  parameters: {
-    layout: 'centered',
-  },
   args: {
     images: [
       { url: reactLogo, alt: 'React logo' },
