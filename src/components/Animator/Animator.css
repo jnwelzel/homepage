@@ -1,0 +1,17 @@
+@keyframes translate-infinite {
+  100% {
+    transform: translateX(calc(-180px * 10));
+  }
+}
+
+ul.lane {
+  width: calc(180px * 20);
+}
+
+li.laneItem {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: translate-infinite 25s linear infinite;
+}
