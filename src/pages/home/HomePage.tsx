@@ -15,7 +15,7 @@ export const HomePage: FC = () => {
           </div>
           <p className="text-left">(that's "hello" in Portuguese)</p>
         </span>
-        <span className="relative my-10">
+        <span className="relative my-10 md:my-28">
           <span className="block absolute inset-0 bg-gray-700 w-1" aria-hidden="true"></span>
           <p className="ml-2">
             I'm Jonathan, a Brazilian full stack Javascript developer living in Germany since 2019.

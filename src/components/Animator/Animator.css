@@ -1,11 +1,11 @@
 @keyframes translate-infinite {
   100% {
-    transform: translateX(calc(-180px * 10));
+    transform: translateX(calc(-180px * 15));
   }
 }
 
 ul.lane {
-  width: calc(180px * 20);
+  width: calc(180px * 30);
 }
 
 li.laneItem {
@@ -13,5 +13,5 @@ li.laneItem {
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: translate-infinite 25s linear infinite;
+  animation: translate-infinite 40s linear alternate-reverse infinite;
 }

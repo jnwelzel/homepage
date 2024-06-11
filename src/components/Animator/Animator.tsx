@@ -78,6 +78,37 @@ export const Animator: FC = () => {
         <li className="laneItem">
           <BiLogoGraphql className="size-20" />
         </li>
+
+        <li className="laneItem">
+          <IoLogoHtml5 className="size-20" />
+        </li>
+        <li className="laneItem">
+          <IoLogoCss3 className="size-20" />
+        </li>
+        <li className="laneItem">
+          <IoLogoSass className="size-20" />
+        </li>
+        <li className="laneItem">
+          <SiTailwindcss className="size-20 p-2" />
+        </li>
+        <li className="laneItem">
+          <IoLogoJavascript className="size-20" />
+        </li>
+        <li className="laneItem">
+          <IoLogoNodejs className="size-20" />
+        </li>
+        <li className="laneItem">
+          <IoLogoReact className="size-20" />
+        </li>
+        <li className="laneItem">
+          <SiStorybook className="size-20 p-2" />
+        </li>
+        <li className="laneItem">
+          <SiVite className="size-20 p-2" />
+        </li>
+        <li className="laneItem">
+          <BiLogoGraphql className="size-20" />
+        </li>
       </ul>
       <div className="absolute w-8 md:w-16 bg-gradient-to-l from-white to-transparent top-0 bottom-0 right-0"></div>
       <div className="absolute w-8 md:w-16 bg-gradient-to-r from-white to-transparent top-0 bottom-0 left-0"></div>
