@@ -1,15 +1,15 @@
 @keyframes translate-infinite {
   100% {
-    transform: translateX(calc(-180px * 15));
+    transform: translateX(calc(var(--laneItemLength) * 15 * -1));
   }
 }
 
 ul.lane {
-  width: calc(180px * 30);
+  width: calc(var(--laneItemLength) * 30);
 }
 
 li.laneItem {
-  width: 180px;
+  width: var(--laneItemLength);
   display: flex;
   align-items: center;
   justify-content: center;

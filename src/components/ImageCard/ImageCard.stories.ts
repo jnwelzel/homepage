@@ -1,12 +1,12 @@
 import { Meta, StoryObj } from '@storybook/react'
 
-import { Animator } from './Animator'
+import { ImageCard } from './ImageCard'
 
 const meta = {
-  title: 'Components/Animator',
-  component: Animator,
+  title: 'Components/Image Card',
+  component: ImageCard,
   tags: ['autodocs'],
-} satisfies Meta<typeof Animator>
+} satisfies Meta<typeof ImageCard>
 
 export default meta
 type Story = StoryObj<typeof meta>

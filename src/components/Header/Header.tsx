@@ -15,11 +15,9 @@ export const Header: FC = () => {
     <>
       <nav className="shadow bg-neutral-100/[0.5] backdrop-blur p-3 z-20 md:w-[584px] md:mx-auto md:inset-x-0 md:mt-4 md:rounded-full md:px-6 md:py-3 fixed w-full">
         <ul className="flex items-center flex-1">
-          <li className="bg-yellow-300 rounded size-9 relative">
-            <Link to="/" className="text-lg font-semibold absolute bottom-[-4px] right-[2px]">
-              JW
-            </Link>
-          </li>
+          <Link to="/" className="bg-yellow-300 rounded size-9 relative">
+            <li className="text-lg font-semibold absolute bottom-[-4px] right-[2px]">JW</li>
+          </Link>
           <li className="ml-auto flex items-center md:hidden">
             <button onClick={toggleSidebar}>
               {!isSidebarVisible ? (

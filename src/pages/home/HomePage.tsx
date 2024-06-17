@@ -8,8 +8,8 @@ export const HomePage: FC = () => {
     <>
       <div className="p-4 pb-0 max-w-[1312px] mx-auto mt-[60px] flex flex-col justify-center items-center md:mt-40">
         <span>
-          <div className="text-9xl font-extrabold">
-            <h1 className="text-left bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mt-10 md:mt-0">
+          <div className="md:text-9xl font-extrabold">
+            <h1 className="text-left bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mt-10 md:mt-0 drop-shadow">
               Olá
             </h1>
           </div>
