@@ -1,12 +1,22 @@
 import { FC } from 'react'
+import { Helmet } from 'react-helmet-async'
 
-import { ImageCard } from '../../components'
+import { Breadcrumb, ImageCard } from '../../components'
 
 export const PortfolioPage: FC = () => {
   return (
     <div className="p-4 pb-0 max-w-[1312px] mx-auto mt-[60px] flex flex-col md:mt-40">
+      <Helmet>
+        <title>{'Jon Welzel > Portfolio'}</title>
+        <meta
+          name="description"
+          content="Some of the work I have done over the years showcasing my professional experience."
+        />
+      </Helmet>
+
       <div className="my-10">
-        <h1 className="text-3xl md:text-6xl md:mt-0 drop-shadow text-left">Portfolio</h1>
+        <Breadcrumb items={[{ name: 'Portfolio', path: '/portfolio' }]} />
+        <h1 className="text-3xl mt-6 md:text-6xl drop-shadow text-left">Portfolio</h1>
         <p className="text-neutral-500">
           Here you can find some of my weekend projects which cover a wide range of topics and tech.
           Some projects are not hosted at the moment (wip) and others are closed-source, so head on

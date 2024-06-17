@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 import { Animator } from '../../components'
@@ -6,6 +7,13 @@ import { Animator } from '../../components'
 export const HomePage: FC = () => {
   return (
     <>
+      <Helmet>
+        <title>{'Jon Welzel'}</title>
+        <meta
+          name="description"
+          content="Welcome to my homepage where you can find some information about me and my career."
+        />
+      </Helmet>
       <div className="p-4 pb-0 max-w-[1312px] mx-auto mt-[60px] flex flex-col justify-center items-center md:mt-40">
         <span>
           <div className="md:text-9xl font-extrabold">

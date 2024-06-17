@@ -19,7 +19,7 @@ export const Header: FC = () => {
             <li className="text-lg font-semibold absolute bottom-[-4px] right-[2px]">JW</li>
           </Link>
           <li className="ml-auto flex items-center md:hidden">
-            <button onClick={toggleSidebar}>
+            <button onClick={toggleSidebar} aria-label="Toggle sidebar button">
               {!isSidebarVisible ? (
                 <Bars2Icon className="size-6" />
               ) : (
