@@ -1,5 +1,6 @@
 import { FC } from 'react'
-import distanceFromX from '../../assets/distance-from-x.png'
+
+import distanceFromX from '../../assets/distance-from-x.webp'
 
 export const ImageCard: FC = () => {
   return (
