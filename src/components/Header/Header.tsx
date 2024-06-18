@@ -43,7 +43,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-fuchsia-500 underline-offset-4' : ''
               }>
-              BLOG
+              Blog
             </NavLink>
           </li>
           <li className="max-md:hidden md:visible md:ml-5">
@@ -52,7 +52,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-lime-500 underline-offset-4' : ''
               }>
-              PORTFOLIO
+              Portfolio
             </NavLink>
           </li>
           <li className="max-md:hidden md:visible md:ml-5">
@@ -61,7 +61,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-sky-500 underline-offset-4' : ''
               }>
-              ABOUT
+              About
             </NavLink>
           </li>
         </ul>

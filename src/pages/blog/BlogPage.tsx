@@ -5,7 +5,7 @@ import { Breadcrumb } from '../../components'
 
 export const BlogPage: FC = () => {
   return (
-    <div className="p-4 pb-0 max-w-[1312px] mx-auto mt-[60px] flex flex-col md:mt-40">
+    <div className="px-4 pb-0 max-w-[1312px] mx-auto mt-24 flex flex-col items-start md:mt-28 gap-6">
       <Helmet>
         <title>{'Jon Welzel > Blog'}</title>
         <meta
@@ -14,10 +14,8 @@ export const BlogPage: FC = () => {
         />
       </Helmet>
 
-      <div className="mb-10 mt-5 md:my-10">
-        <Breadcrumb items={[{ name: 'Blog', path: '/blog' }]} />
-        <p className="text-neutral-500 mt-6">A collection of tech and personal ramblings.</p>
-      </div>
+      <Breadcrumb items={[{ name: 'Blog', path: '/blog' }]} />
+      <p className="text-neutral-500">A collection of tech and personal ramblings.</p>
     </div>
   )
 }
