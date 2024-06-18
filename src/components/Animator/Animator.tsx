@@ -1,16 +1,16 @@
+import './Animator.css'
+
 import { FC } from 'react'
+import { BiLogoGraphql } from 'react-icons/bi'
 import {
-  IoLogoHtml5,
   IoLogoCss3,
+  IoLogoHtml5,
   IoLogoJavascript,
   IoLogoNodejs,
-  IoLogoSass,
   IoLogoReact,
+  IoLogoSass,
 } from 'react-icons/io5'
-import { BiLogoGraphql } from 'react-icons/bi'
-import { SiVite, SiStorybook, SiTailwindcss } from 'react-icons/si'
-
-import './Animator.css'
+import { SiStorybook, SiTailwindcss, SiVite } from 'react-icons/si'
 
 export const Animator: FC = () => {
   return (
@@ -18,7 +18,7 @@ export const Animator: FC = () => {
       <p className="mb-5 text-center">...and here's some of my favorite tech:</p>
       <ul className="flex flex-row items-center text-gray-700 lane">
         <li className="laneItem">
-          <IoLogoHtml5 className="size-20 shadow" />
+          <IoLogoHtml5 className="size-20 drop-shadow" />
         </li>
         <li className="laneItem">
           <IoLogoCss3 className="size-20 drop-shadow" />

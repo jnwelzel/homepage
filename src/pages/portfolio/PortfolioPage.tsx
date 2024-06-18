@@ -14,10 +14,9 @@ export const PortfolioPage: FC = () => {
         />
       </Helmet>
 
-      <div className="my-10">
+      <div className="mb-10 mt-5 md:my-10">
         <Breadcrumb items={[{ name: 'Portfolio', path: '/portfolio' }]} />
-        <h1 className="text-3xl mt-6 md:text-6xl drop-shadow text-left">Portfolio</h1>
-        <p className="text-neutral-500">
+        <p className="text-neutral-500 mt-6">
           Here you can find some of my weekend projects which cover a wide range of topics and tech.
           Some projects are not hosted at the moment (wip) and others are closed-source, so head on
           over to my{' '}
