@@ -9,7 +9,6 @@ const config: StorybookConfig = {
     '@chromatic-com/storybook',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
-    '@storybook/addon-viewport',
     'storybook-addon-remix-react-router',
   ],
 
