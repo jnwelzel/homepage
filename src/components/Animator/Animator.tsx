@@ -14,7 +14,7 @@ import { SiStorybook, SiTailwindcss, SiVite } from 'react-icons/si'
 
 export const Animator: FC = () => {
   return (
-    <div className="overflow-hidden w-full shadow bg-neutral-100 py-8 relative">
+    <div className="overflow-hidden w-full shadow bg-neutral-100 py-8 relative mb-8">
       <p className="mb-5 text-center">...and here's some of my favorite tech:</p>
       <ul className="flex flex-row items-center text-gray-700 lane">
         <li className="laneItem">

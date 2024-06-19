@@ -4,8 +4,6 @@ import { Helmet } from 'react-helmet-async'
 import { Breadcrumb } from '../../components'
 
 export const AboutPage: FC = () => {
-  // TODO Download CV as PDF link
-  // TODO Add load more option
   return (
     <div className="px-4 pb-0 max-w-[1312px] mx-auto mt-24 flex flex-col items-start md:mt-28 gap-6">
       <Helmet>
@@ -31,29 +29,39 @@ export const AboutPage: FC = () => {
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">5+ years of Java full stack experience</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base">5+ years of Java full stack experience</p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">7+ years of frontend development experience</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">
+            7+ years of frontend development experience
+          </p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">Mentoring of more junior devs</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">Mentoring of more junior devs</p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">Node and Ruby experience</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">Node and Ruby experience</p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">SQL/noSQL DB: Oracle DB, MySQL, PostgreSQL and MongoDB</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">
+            SQL/noSQL DB: Oracle DB, MySQL, PostgreSQL and MongoDB
+          </p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">Cloud infrastructure management (AWS, learning GCP)</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">
+            Cloud infrastructure management (AWS, learning GCP)
+          </p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">Agile methodologies (Scrum and Kanban), TDD, Git, CI and CD</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">
+            Agile methodologies (Scrum and Kanban), TDD, Git, CI and CD
+          </p>
         </div>
-        <div className="border shadow rounded-xl p-3">
-          <p className="text-sm">React proficiency and frontend ecosystem</p>
+        <div className="border shadow rounded-xl p-3 md:p-4">
+          <p className="text-sm md:text-base leading-tight">
+            React proficiency and frontend ecosystem
+          </p>
         </div>
       </div>
 
@@ -62,13 +70,13 @@ export const AboutPage: FC = () => {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">MediaMarkt Saturn</h3>
-            <p className="text-sm text-right">Aug. 2021 - Present</p>
-            <p className="text-sm italic col-span-2">Experienced Software Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">MediaMarkt Saturn</h3>
+            <p className="text-sm md:text-base text-right">Aug. 2021 - Present</p>
+            <p className="text-sm md:text-base italic col-span-2">Experienced Software Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Our small team revamped the loyalty program for both brands of the company in
               different countries.
@@ -89,13 +97,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">Wunderflats GmbH</h3>
-            <p className="text-sm text-right">Mar. 2019 - Jul. 2021</p>
-            <p className="text-sm italic col-span-2">Senior Frontend Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">Wunderflats GmbH</h3>
+            <p className="text-sm md:text-base text-right">Mar. 2019 - Jul. 2021</p>
+            <p className="text-sm md:text-base italic col-span-2">Senior Frontend Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Reduced bounce rate and increased adoption for mobile users of our platform by
               introducing SEO improvements and reshaping critical parts of the application.
@@ -111,13 +119,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">Resultados Digitais</h3>
-            <p className="text-sm text-right">Nov. 2017 - Feb. 2019</p>
-            <p className="text-sm italic col-span-2">Senior Full Stack Developer</p>
+            <h3 className="text-sm md:text-base font-semibold">Resultados Digitais</h3>
+            <p className="text-sm md:text-base text-right">Nov. 2017 - Feb. 2019</p>
+            <p className="text-sm md:text-base italic col-span-2">Senior Full Stack Developer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Helped my experimental growth team to successfully improve the product’s user
               adoption.
@@ -134,13 +142,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">Mercos</h3>
-            <p className="text-sm text-right">Aug. 2015 - Nov. 2017</p>
-            <p className="text-sm italic col-span-2">Frontend Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">Mercos</h3>
+            <p className="text-sm md:text-base text-right">Aug. 2015 - Nov. 2017</p>
+            <p className="text-sm md:text-base italic col-span-2">Frontend Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Improved our product’s stability by scaling and fine-tuning our AWS infrastructure.
             </li>
@@ -164,13 +172,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">TOTVS</h3>
-            <p className="text-sm text-right">Dec. 2013 - Aug. 2015</p>
-            <p className="text-sm italic col-span-2">Full Stack Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">TOTVS</h3>
+            <p className="text-sm md:text-base text-right">Dec. 2013 - Aug. 2015</p>
+            <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Decreased QA allocation times by automating our application’s UI tests using Selenium.
             </li>
@@ -186,13 +194,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">Cipher</h3>
-            <p className="text-sm text-right">Oct. 2012 - Nov. 2013</p>
-            <p className="text-sm italic col-span-2">Full Stack Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">Cipher</h3>
+            <p className="text-sm md:text-base text-right">Oct. 2012 - Nov. 2013</p>
+            <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Enabled our product to securely connect to remote devices through SSH by using a Java
               framework called JSch in order to assess possible vulnerability issues.
@@ -210,13 +218,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">German Tech</h3>
-            <p className="text-sm text-right">Nov. 2011 - Oct. 2012</p>
-            <p className="text-sm italic col-span-2">Full Stack Engineer</p>
+            <h3 className="text-sm md:text-base font-semibold">German Tech</h3>
+            <p className="text-sm md:text-base text-right">Nov. 2011 - Oct. 2012</p>
+            <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Introduced new features/bug fixes in our Eclipse RCP desktop applications which
               enabled our customers to integrate their businesses with our billing and accounting
@@ -230,13 +238,13 @@ export const AboutPage: FC = () => {
           </ul>
         </div>
 
-        <div className="border shadow rounded-xl p-3 flex flex-col">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
           <div className="grid grid-cols-2 mb-2">
-            <h3 className="text-sm font-semibold">Digitaldoc</h3>
-            <p className="text-sm text-right">Mar. 2008 - Jul. 2010</p>
-            <p className="text-sm italic col-span-2">Full Stack Developer</p>
+            <h3 className="text-sm md:text-base font-semibold">Digitaldoc</h3>
+            <p className="text-sm md:text-base text-right">Mar. 2008 - Jul. 2010</p>
+            <p className="text-sm md:text-base italic col-span-2">Full Stack Developer</p>
           </div>
-          <ul className="text-sm list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
             <li>
               Worked with JavaServer Faces, Hibernate, Hibernate Search and RichFaces on a document
               management system called DigitalDoc.
@@ -256,12 +264,12 @@ export const AboutPage: FC = () => {
       </h2>
 
       <div className="grid grid-cols-1">
-        <div className="border shadow rounded-xl p-3 flex flex-col">
-          <h3 className="text-sm font-semibold">
+        <div className="border shadow rounded-xl p-3 md:p-4 flex flex-col">
+          <h3 className="text-sm md:text-base font-semibold">
             Federal Technological University of Paraná (UTFPR)
           </h3>
-          <p className="text-sm">2006 - 2010</p>
-          <p className="text-sm italic col-span-2">
+          <p className="text-sm md:text-base">2006 - 2010</p>
+          <p className="text-sm md:text-base italic col-span-2">
             Coursework in Software Analysis and Development
           </p>
         </div>

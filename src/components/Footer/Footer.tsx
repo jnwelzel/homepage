@@ -5,10 +5,10 @@ import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io'
 export const Footer: FC = () => {
   return (
     <>
-      <div className="bg-black">
+      <div className="bg-gray-700">
         <div className="h-5 bg-white rounded-b-2xl" />
       </div>
-      <footer className="bg-black text-white foo relative z-10">
+      <footer className="bg-gray-700 text-white foo relative z-10">
         <ul className="grid gap-4 p-4 grid-cols-3 max-w-[1312px] mx-auto">
           <li className="md:col-span-3">
             <a
