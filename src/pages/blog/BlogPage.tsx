@@ -14,8 +14,10 @@ export const BlogPage: FC = () => {
         />
       </Helmet>
 
-      <Breadcrumb items={[{ name: 'Blog', path: '/blog' }]} />
-      <p className="text-neutral-500">A collection of tech and personal ramblings.</p>
+      <Breadcrumb items={[{ name: 'Blog', path: '/blog' }]} className="fixed top-20 md:top-28" />
+      <p className="text-neutral-500 mt-10 md:mt-14">
+        A collection of tech and personal ramblings.
+      </p>
     </div>
   )
 }

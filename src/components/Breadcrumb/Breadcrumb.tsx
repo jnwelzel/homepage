@@ -8,13 +8,15 @@ type BreadcrumbItem = {
 
 interface IBreadcrumbProps {
   items: BreadcrumbItem[]
+  className?: string
 }
 
 export const Breadcrumb: FC<IBreadcrumbProps> = props => {
-  const { items } = props
+  const { items, className } = props
 
   return (
-    <ol className="border rounded-full shadow py-2 pr-5 inline-flex items-center">
+    <ol
+      className={`bg-white border rounded-full shadow py-2 pr-5 inline-flex items-center ${className}`}>
       <li>
         <a href="/" aria-label="Home" title="Home">
           <HomeIcon className="size-5 text-neutral-500 hover:text-neutral-600 ml-5" />

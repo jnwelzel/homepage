@@ -16,9 +16,9 @@ export const AboutPage: FC = () => {
         />
       </Helmet>
 
-      <Breadcrumb items={[{ name: 'About', path: '/about' }]} />
+      <Breadcrumb items={[{ name: 'About', path: '/about' }]} className="fixed top-20 md:top-28" />
 
-      <h1 className="text-neutral-500">
+      <h1 className="text-neutral-500 mt-10 md:mt-14">
         A brief overview of my 10+ years of experience in software development. Click{' '}
         <a className="underline" href="/">
           here

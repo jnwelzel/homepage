@@ -14,8 +14,11 @@ export const PortfolioPage: FC = () => {
         />
       </Helmet>
 
-      <Breadcrumb items={[{ name: 'Portfolio', path: '/portfolio' }]} />
-      <p className="text-neutral-500">
+      <Breadcrumb
+        items={[{ name: 'Portfolio', path: '/portfolio' }]}
+        className="fixed top-20 md:top-28"
+      />
+      <p className="text-neutral-500 mt-10 md:mt-14">
         Here you can find some of my weekend projects which cover a wide range of topics and tech.
         Some projects are not hosted at the moment (wip) and others are closed-source, so head on
         over to my{' '}

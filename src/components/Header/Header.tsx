@@ -82,7 +82,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-fuchsia-500 underline-offset-4' : ''
               }>
-              ✏️ BLOG
+              Blog
             </NavLink>
           </li>
           <li className="px-8 py-2">
@@ -92,7 +92,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-lime-500 underline-offset-4' : ''
               }>
-              💯 PORTFOLIO
+              Portfolio
             </NavLink>
           </li>
           <li className="px-8 py-2">
@@ -102,7 +102,7 @@ export const Header: FC = () => {
               className={({ isActive }) =>
                 isActive ? 'underline decoration-sky-500 underline-offset-4' : ''
               }>
-              😎 ABOUT
+              About
             </NavLink>
           </li>
         </ul>
