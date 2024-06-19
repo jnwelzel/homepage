@@ -20,7 +20,7 @@ export const AboutPage: FC = () => {
 
       <h1 className="text-neutral-500 mt-10 md:mt-14">
         A brief overview of my 10+ years of experience in software development. Click{' '}
-        <a className="underline" href="/">
+        <a className="underline" href="/public/cv.pdf" download="jonathan-welzel-cv">
           here
         </a>{' '}
         to download it as a PDF file.
