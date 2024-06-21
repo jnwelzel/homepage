@@ -16,8 +16,8 @@ export const HomePage: FC = () => {
           content="Welcome to my homepage where you can find some information about me and my career."
         />
       </Helmet>
-      <div className="p-4 pb-0 max-w-[1312px] mb-8 md:mb-12 mx-auto mt-[60px] flex flex-col justify-center items-center md:mt-24 before:absolute before:left-0 before:right-0 before:top-0 before:h-[525px] before:bg-gray-700 before:-z-10 before:shadow">
-        <div className="flex items-end gap-10 mb-20 mt-10">
+      <div className="flex flex-col justify-center items-center px-4 max-w-[1312px] mb-8 md:mb-28 mx-auto mt-[60px] md:mt-48 before:absolute before:left-0 before:right-0 before:top-0 before:h-[500px] before:md:h-[600px] before:bg-gray-700 before:-z-10 before:shadow">
+        <div className="flex items-end gap-10 mb-28">
           <Avatar />
           <span className="mb-16 flex flex-col items-center relative after:absolute after:w-60 after:h-36 after:-bottom-3 after:-left-5 after:bg-white after:rounded-e-2xl after:rounded-t-2xl after:-z-10 before:absolute before:w-60 before:h-36 before:-bottom-5 before:-left-7 before:bg-black before:rounded-e-2xl before:rounded-t-2xl before:-z-10">
             <h1 className="text-9xl font-extrabold text-left bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 mt-10 md:mt-0 drop-shadow">
@@ -26,7 +26,7 @@ export const HomePage: FC = () => {
             <p className="text-left text-gray-700 text-xs -mt-3">(that's "hello" in Portuguese)</p>
           </span>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
           <div className="p-6 bg-white shadow rounded-2xl flex flex-col">
             <div className="flex items-center justify-center gap-4">
               <FaGlobeAmericas className="text-gray-700 size-20" />
