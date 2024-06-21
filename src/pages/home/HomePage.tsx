@@ -16,7 +16,7 @@ export const HomePage: FC = () => {
           content="Welcome to my homepage where you can find some information about me and my career."
         />
       </Helmet>
-      <div className="flex flex-col justify-center items-center px-4 max-w-[1312px] mb-8 md:mb-28 mx-auto mt-[60px] md:mt-48 before:absolute before:left-0 before:right-0 before:top-0 before:h-[500px] before:md:h-[600px] before:bg-gray-700 before:-z-10 before:shadow">
+      <div className="flex flex-col justify-center items-center px-4 max-w-[1312px] mb-8 md:mb-28 mx-auto mt-32 md:mt-48 before:absolute before:left-0 before:right-0 before:top-0 before:h-[570px] before:md:h-[600px] before:bg-gray-700 before:-z-10 before:shadow">
         <div className="flex items-end gap-10 mb-28">
           <Avatar />
           <span className="mb-16 flex flex-col items-center relative after:absolute after:w-60 after:h-36 after:-bottom-3 after:-left-5 after:bg-white after:rounded-e-2xl after:rounded-t-2xl after:-z-10 before:absolute before:w-60 before:h-36 before:-bottom-5 before:-left-7 before:bg-black before:rounded-e-2xl before:rounded-t-2xl before:-z-10">
@@ -27,7 +27,7 @@ export const HomePage: FC = () => {
           </span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16">
-          <div className="p-6 bg-white shadow rounded-2xl flex flex-col">
+          <div className="p-6 bg-white border shadow rounded-2xl flex flex-col">
             <div className="flex items-center justify-center gap-4">
               <FaGlobeAmericas className="text-gray-700 size-20" />
               <FaLongArrowAltRight className="text-gray-700 size-14" />
@@ -39,7 +39,7 @@ export const HomePage: FC = () => {
               and crafting software since 2008.
             </TextBar>
           </div>
-          <div className="p-6 bg-white shadow rounded-2xl flex flex-col">
+          <div className="p-6 bg-white border shadow rounded-2xl flex flex-col">
             <FaEye className="text-gray-700 size-20 self-center" />
             <hr className="h-px bg-gray-700 border-0 my-6" />
             <TextBar>
@@ -47,7 +47,7 @@ export const HomePage: FC = () => {
               user-friendly web apps.
             </TextBar>
           </div>
-          <div className="p-6 bg-white shadow rounded-2xl flex flex-col">
+          <div className="p-6 bg-white border shadow rounded-2xl flex flex-col">
             <FaPeopleGroup className="text-gray-700 size-20 self-center" />
             <hr className="h-px bg-gray-700 border-0 my-6" />
             <TextBar>
