@@ -1,6 +1,8 @@
 import { FC } from 'react'
 import { Helmet } from 'react-helmet-async'
 
+import distanceFromX from '../../assets/distance-from-x.webp'
+import mtgExplorer from '../../assets/mtgexplorer.jpg'
 import { Breadcrumb, ImageCard } from '../../components'
 
 export const PortfolioPage: FC = () => {
@@ -32,7 +34,18 @@ export const PortfolioPage: FC = () => {
       </p>
 
       <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
-        <ImageCard />
+        <ImageCard
+          imageURL={distanceFromX}
+          title="Distance from X"
+          description="React SPA to calculate the distance between two geographic points. The app also uses Google's Geocoding API for searching and fetching geocoordinates."
+          linkURL="https://jnwelzel.github.io/distance-from-x/"
+        />
+        <ImageCard
+          imageURL={mtgExplorer}
+          title="MTG Explorer"
+          description="A web application for exploring Magic: The Gathering card sets and their contents."
+          linkURL="https://mtgexplorer.online"
+        />
       </div>
     </div>
   )

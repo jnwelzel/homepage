@@ -76,10 +76,10 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Aug. 2021 - Present</p>
             <p className="text-sm md:text-base italic col-span-2">Experienced Software Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
-              Our small team revamped the loyalty program for both brands of the company in
-              different countries.
+              Our small team revamped the loyalty program for both brands of the company across
+              multiple countries.
             </li>
             <li>Created landing pages as part of the new B2B customer registration process.</li>
             <li>
@@ -103,7 +103,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Mar. 2019 - Jul. 2021</p>
             <p className="text-sm md:text-base italic col-span-2">Senior Frontend Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Reduced bounce rate and increased adoption for mobile users of our platform by
               introducing SEO improvements and reshaping critical parts of the application.
@@ -125,7 +125,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Nov. 2017 - Feb. 2019</p>
             <p className="text-sm md:text-base italic col-span-2">Senior Full Stack Developer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Helped my experimental growth team to successfully improve the product’s user
               adoption.
@@ -148,7 +148,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Aug. 2015 - Nov. 2017</p>
             <p className="text-sm md:text-base italic col-span-2">Frontend Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Improved our product’s stability by scaling and fine-tuning our AWS infrastructure.
             </li>
@@ -178,7 +178,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Dec. 2013 - Aug. 2015</p>
             <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Decreased QA allocation times by automating our application’s UI tests using Selenium.
             </li>
@@ -200,7 +200,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Oct. 2012 - Nov. 2013</p>
             <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Enabled our product to securely connect to remote devices through SSH by using a Java
               framework called JSch in order to assess possible vulnerability issues.
@@ -224,7 +224,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Nov. 2011 - Oct. 2012</p>
             <p className="text-sm md:text-base italic col-span-2">Full Stack Engineer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Introduced new features/bug fixes in our Eclipse RCP desktop applications which
               enabled our customers to integrate their businesses with our billing and accounting
@@ -244,7 +244,7 @@ export const AboutPage: FC = () => {
             <p className="text-sm md:text-base text-right">Mar. 2008 - Jul. 2010</p>
             <p className="text-sm md:text-base italic col-span-2">Full Stack Developer</p>
           </div>
-          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight list-inside">
+          <ul className="text-sm md:text-base list-disc flex flex-col leading-tight pl-3">
             <li>
               Worked with JavaServer Faces, Hibernate, Hibernate Search and RichFaces on a document
               management system called DigitalDoc.
